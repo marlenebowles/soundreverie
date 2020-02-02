@@ -9,9 +9,14 @@
 		"tslint": "tslint -p . -c tslint.json"
 	},
 	"dependencies": {
+		"@computapars/core": "^1.0.4",
+		"@computapars/typography": "^1.0.3",
 		"next": "latest",
 		"react": "^16.8.4",
-		"react-dom": "^16.8.4"
+		"react-dom": "^16.8.4",
+		"styled-components": "^5.0.0",
+		"styled-normalize": "^8.0.7",
+		"styled-system": "^5.1.4"
 	},
 	"husky": {
 		"hooks": {
@@ -24,10 +29,12 @@
 		"@types/react-dom": "^16.8.2",
 		"babel-core": "^6.26.3",
 		"babel-jest": "^24.9.0",
+		"babel-plugin-styled-components": "^1.10.7",
 		"enzyme": "^3.9.0",
 		"enzyme-adapter-react-16": "^1.11.2",
 		"husky": "^4.2.1",
 		"jest": "^24.9.0",
+		"next-transpile-modules": "^3.0.2",
 		"react-addons-test-utils": "^15.6.2",
 		"react-test-renderer": "^16.12.0",
 		"ts-jest": "^25.1.0",
